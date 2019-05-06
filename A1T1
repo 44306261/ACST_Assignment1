@@ -11,8 +11,9 @@ exit
 scp -i 44306261.pem stdio.py ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com:
 ssh -i 44306261.pem ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com
 touch userargument.py
+#userargument.py are shown in ACST_assignment/userargument.py
 vi userargument.py
-cat userargument.py
+cat userargument.py 
 #a
 python3 userargument.py python
 #b
@@ -27,25 +28,28 @@ userargument.py Bob
 python3 userargument.py Alice Bob
 
 #Q3
-#Q3.py are shown in ACST_assignment/Q3.PY
+#Q3.py are shown in ACST_assignment/Q3.py
 touch Q3.py
 vi Q3.py
 cat Q3.py
 python3 Q3.py
 
 #Q4
+#Q4.py are shown in ACST_assignment/Q4.py
 touch Q4.py
 vi Q4.py
 cat Q4.py
 python3 Q4.py
 
 #Q5
+#Q5.py are shown in ACST_assignment/Q5.py
 touch Q5.py
 vi Q5.py
 cat Q5.py
 python3 Q5.py
 
 #Q6
+#Q6.py are shown in ACST_assignment/Q6.py 
 touch Q6.py
 vi Q6.py
 cat Q6.py
