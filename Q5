@@ -1,0 +1,8 @@
+m=int(input('Enter an integer as month m:'))
+d=int(input('Enter an integer as day d:'))
+
+if m>=3 and m<=6:
+    if d>=1 and d<=20:
+           print ('True')
+else:
+    print('False')
