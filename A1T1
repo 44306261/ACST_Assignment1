@@ -6,9 +6,28 @@ ssh -i 44306261.pem ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com
 sed 's/Huck/HucK/g' twain.txt
 
 #Q2
-
+exit 
+#upload stdio.py into AWS account
+scp -i 44306261.pem stdio.py ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com:
+ssh -i 44306261.pem ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com
+touch userargument.py
+vi userargument.py
+cat userargument.py
+#a
+python3 userargument.py python
+#b
+python3 userargument.py @!&^%
+#c
+python3 userargument.py 1234
+#d
+python3 userargument.py Bob
+#e
+userargument.py Bob
+#f
+python3 userargument.py Alice Bob
 
 #Q3
+#Q3.py are shown in ACST_assignment/Q3.PY
 touch Q3.py
 vi Q3.py
 cat Q3.py
