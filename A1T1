@@ -1,0 +1,33 @@
+#Q1 
+#upload the twain.txt into my AWS account and then login my AWS account
+scp -i 44306261.pem twain.txt ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com:
+ssh -i 44306261.pem ubuntu@ec2-52-63-137-98.ap-southeast-2.compute.amazonaws.com
+#convert all instances of the string ‘Huck’ to ‘HucK’.
+sed 's/Huck/HucK/g' twain.txt
+
+#Q2
+
+
+#Q3
+touch Q3.py
+vi Q3.py
+cat Q3.py
+python3 Q3.py
+
+#Q4
+touch Q4.py
+vi Q4.py
+cat Q4.py
+python3 Q4.py
+
+#Q5
+touch Q5.py
+vi Q5.py
+cat Q5.py
+python3 Q5.py
+
+#Q6
+touch Q6.py
+vi Q6.py
+cat Q6.py
+python3 Q6.py
